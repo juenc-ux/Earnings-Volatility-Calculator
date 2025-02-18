@@ -1,4 +1,4 @@
-('/Users/mcruz/Trade-Calc/trade calculator/build/calculator/PYZ-00.pyz',
+('/Users/mcruz/Trade-Calc/Earnings-Volatility-Calculator/build/calculator/PYZ-00.pyz',
  [('FreeSimpleGUI',
    '/opt/homebrew/Caskroom/miniforge/base/envs/ficalc/lib/python3.12/site-packages/FreeSimpleGUI/__init__.py',
    'PYMODULE'),
