@@ -11,3 +11,4 @@ scipy==1.15.2
 tkcalendar==1.6.1
 yahooquery==2.3.7
 yfinance==0.2.54
+streamlit==1.39.0

@@ -38,7 +38,11 @@ except ImportError:
     raise SystemExit
 
 import matplotlib
-matplotlib.use("TkAgg")
+# Use TkAgg only for the desktop GUI. For web/headless usage, set env EVC_USE_TK=0
+if os.environ.get("EVC_USE_TK", "1") == "1":
+    matplotlib.use("TkAgg")
+else:
+    matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import mplfinance as mpf
 

@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: earnings-volatility-calculator
+    env: docker
+    plan: free
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: EVC_USE_TK
+        value: "0"
+
